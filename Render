@@ -1,17 +1,1 @@
-services:
-  - type: web
-    name: ff-like-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    envVars:
-      - key: BOT_TOKEN
-        sync: false
-      - key: WEBHOOK_URL
-        sync: false
-      - key: OWNER_ID
-        sync: false
-      - key: REQUIRED_CHANNELS
-        sync: false
-      - key: LIKE_API_URL
-        sync: false
+
