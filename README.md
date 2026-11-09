@@ -1,1 +1,4 @@
-# Bac3
+pyTelegramBotAPI
+Flask
+requests
+gunicorn
